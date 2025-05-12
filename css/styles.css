@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f0f9e9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  padding: 40px;
+  border-radius: 20px;
+}
+
+.text {
+  max-width: 400px;
+}
+
+.text h1 {
+  font-size: 48px;
+  margin: 0;
+  font-weight: bold;
+}
+
+.text h2 {
+  font-size: 56px;
+  margin: 0;
+  font-weight: bold;
+}
+
+.text p {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #000;
+}
+
+.text .school {
+  font-size: 20px;
+  font-weight: bold;
+  color: #00b050;
+}
+
+.image-container {
+  background: white;
+  padding: 20px;
+  border-radius: 30px;
+}
+
+.image-container img {
+  width: 300px;
+  border-radius: 10px;
+}
